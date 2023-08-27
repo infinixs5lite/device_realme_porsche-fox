@@ -27,9 +27,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export LC_ALL="C"
   
 # Maintaining Info
-    export OF_MAINTAINER="Covenant Fuchsia"
+    export OF_MAINTAINER="NINO"
     export FOX_VERSION=$(date +%Y.%m.%d)
-    export FOX_BUILD_TYPE=Unofficial_Covenant_Fuchsia
+    export FOX_BUILD_TYPE=Unofficial
 
   	
 # Device Info
@@ -39,7 +39,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
   
 # Funtions
     export FOX_REPLACE_BUSYBOX_PS=1
-    export FOX_REPLACE_TOOLBOX_GETPROP=1
     export FOX_USE_TAR_BINARY=1
     export FOX_USE_SED_BINARY=1
     export FOX_USE_BASH_SHELL=1
